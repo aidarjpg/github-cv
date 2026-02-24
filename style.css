@@ -1,0 +1,173 @@
+﻿:root {
+  --bg: #fbfaf6;
+  --panel: #fffefa;
+  --ink: #1f2937;
+  --muted: #5b6472;
+  --accent: #c2410c;
+  --line: #e8dfd1;
+  --shadow: 0 14px 32px rgba(32, 31, 45, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Space Grotesk", sans-serif;
+  background: radial-gradient(circle at top right, #f7e9d2 0%, transparent 44%),
+    radial-gradient(circle at bottom left, #def2ee 0%, transparent 42%),
+    var(--bg);
+  line-height: 1.6;
+}
+
+.bg-shape {
+  position: fixed;
+  z-index: -1;
+  border-radius: 999px;
+  filter: blur(36px);
+  opacity: 0.45;
+}
+
+.bg-shape-1 {
+  width: 240px;
+  height: 240px;
+  background: #f97316;
+  top: -60px;
+  right: 5vw;
+}
+
+.bg-shape-2 {
+  width: 280px;
+  height: 280px;
+  background: #0d9488;
+  bottom: -90px;
+  left: 2vw;
+}
+
+.page {
+  max-width: 900px;
+  margin: 2rem auto 3rem;
+  background: color-mix(in oklab, var(--panel) 90%, white 10%);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero {
+  padding: 2.5rem 2rem 1.4rem;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(122deg, #fff9ef 0%, #f7fcfa 100%);
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0.3rem 0;
+  font-size: clamp(1.9rem, 2.8vw, 2.6rem);
+  line-height: 1.15;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-family: "IBM Plex Serif", serif;
+}
+
+.contact {
+  margin-top: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  font-size: 0.96rem;
+}
+
+.contact a {
+  color: var(--ink);
+}
+
+.pdf-button {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid #b45309;
+  border-radius: 10px;
+  background: #ea580c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.pdf-button:hover {
+  background: #c2410c;
+}
+
+.note {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+section {
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--line);
+}
+
+h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.25rem;
+  color: #0f766e;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+p {
+  margin: 0.3rem 0;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+article + article {
+  margin-top: 1rem;
+}
+
+ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+}
+
+li {
+  margin: 0.35rem 0;
+}
+
+@media (max-width: 640px) {
+  .page {
+    margin: 0;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .hero,
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

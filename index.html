@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aidar Amangeldi | CV</title>
+  <meta name="description" content="Academic CV of Aidar Amangeldi" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h1>Aidar Amangeldi</h1>
+      <p class="subtitle">MSc Data Science Candidate | BSc Computer Science</p>
+      <div class="contact">
+        <span>Astana, Kazakhstan</span>
+        <a href="mailto:aidar0amangeldi@gmail.com">aidar0amangeldi@gmail.com</a>
+        <a href="https://www.linkedin.com/in/aidar-amangeldi/" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/aidarjpg" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <a class="pdf-button" href="./cv.pdf" target="_blank" rel="noopener noreferrer">Open PDF CV</a>
+      <p class="note">Web version plus original PDF available.</p>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <article>
+        <h3>Nazarbayev University, Astana, Kazakhstan</h3>
+        <p>MSc in Data Science (expected 2026)</p>
+        <p>BSc in Computer Science (2024)</p>
+        <p>Relevant coursework: Data Mining and Decision Support, Artificial Intelligence, Linear Algebra, Big Data Analytics, Discrete Mathematics, Probability and Statistics for Data Science, Computer Vision.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Work and Academic Experience</h2>
+      <article>
+        <h3>Research Assistant, ESAI Lab (Prof. Jurn-Gyu Park)</h3>
+        <p class="meta">Astana, Kazakhstan | Aug 2022 - Present</p>
+        <ul>
+          <li>Published two papers in IEEE journal/conference venues.</li>
+          <li>Characterized Vision Transformer and CNN workloads on NVIDIA Jetson TX2 systems.</li>
+          <li>Measured power, runtime, and energy-delay-product metrics for default and proposed CPU/GPU governors.</li>
+          <li>Built a custom Python parser for tegrastats-based profiling.</li>
+          <li>Developed CPU-GPU DVFS algorithms to reduce power consumption while preserving performance and accuracy.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Data Science Intern, ISSAI</h3>
+        <p class="meta">Astana, Kazakhstan | May 2022 - Aug 2022</p>
+        <ul>
+          <li>Contributed to the first Central Asian dishes dataset (collection, annotation, quality control), published in MDPI.</li>
+          <li>Scraped and processed 6,000+ images across 10 dish categories.</li>
+          <li>Performed iterative cleaning and annotation quality checks.</li>
+          <li>Trained YOLO/ResNet models for 8 classes, reaching 80% accuracy and 0.83/0.80/0.87 precision/recall/F1.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Selected Projects</h2>
+      <article>
+        <h3>AI-Generated Text Detection with Topic-Based Generalization <a href="https://arxiv.org/abs/2601.03812" target="_blank" rel="noopener noreferrer">(arXiv)</a></h3>
+        <ul>
+          <li>Implemented TF-IDF Logistic Regression, BiLSTM, and DistilBERT with consistent preprocessing and validation-driven selection.</li>
+          <li>Reached 88.86% accuracy with BiLSTM and 0.96 ROC-AUC with DistilBERT under topic-shift evaluation.</li>
+          <li>Quantified accuracy-latency trade-offs: DistilBERT gave higher recall but was around 50x slower than BiLSTM.</li>
+          <li>Used confusion matrices and ROC analysis to inspect false positives/negatives for academic integrity scenarios.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>CNN vs ViT Performance on Tiny ImageNet and DermaMNIST <a href="https://arxiv.org/pdf/2505.08259" target="_blank" rel="noopener noreferrer">(arXiv)</a></h3>
+        <ul>
+          <li>Compared ResNet18 against ViT Tiny/Small/Base/Large across medical and general image classification.</li>
+          <li>Designed structured fine-tuning and hyperparameter variation for accuracy-efficiency optimization.</li>
+          <li>Achieved 3-4x faster inference and 75% parameter reduction with ViT-Small (Patch 16) while staying within 3% of top accuracy.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Layoff Forecasting and Workforce Planning (CRISP-DM)</h3>
+        <ul>
+          <li>Built forecasting, classification, and clustering models on WARN layoff data to identify high-risk states/months early.</li>
+          <li>Combined Prophet, Logistic Regression, and K-Means with lag-based features for non-linear shock patterns.</li>
+          <li>Estimated potential impact: $44M fiscal savings and $144M GDP preservation via proactive reskilling interventions.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Congenital Heart Disease Recognition with Deep Learning/Transformers <a href="https://arxiv.org/abs/2505.08242" target="_blank" rel="noopener noreferrer">(arXiv)</a></h3>
+        <ul>
+          <li>Used multimodal learning on ZCHSound audio and pediatric chest X-ray datasets.</li>
+          <li>Applied preprocessing and augmentation for small, imbalanced medical data.</li>
+          <li>Implemented late-fusion ensembles; achieved 73.9% on audio and 80.72% on pediatric CXR classification.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Removal of Text in Images <a href="https://github.com/aidarjpg/text-remover-from-image/tree/main" target="_blank" rel="noopener noreferrer">(GitHub)</a></h3>
+        <ul>
+          <li>Developed an OCR-driven pipeline for text detection and removal while preserving background integrity.</li>
+          <li>Used median filtering, histogram equalization, Google Cloud Vision OCR, inpainting, and smoothing.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Publications and Acknowledgments</h2>
+      <ul>
+        <li>J.-G. Park, A. Amangeldi, N. Fakhrutdinov, M. Karzhaubayeva, and D. Zorbas. "Patch and Model Size Characterization for On-Device Efficient-ViTs on Small Datasets Using 12 Quantitative Metrics." IEEE Access, 2025. <a href="https://doi.org/10.1109/ACCESS.2025.3536471" target="_blank" rel="noopener noreferrer">DOI</a></li>
+        <li>M. Karzhaubayeva, A. Amangeldi, and J.-G. Park. "CNN Workloads Characterization and Integrated CPU-GPU DVFS Governors on Embedded Systems." IEEE Embedded Systems Letters. <a href="https://doi.org/10.1109/LES.2023.3299335" target="_blank" rel="noopener noreferrer">DOI</a></li>
+        <li>Acknowledged in Karabay et al. "A Central Asian Food Dataset for Personalized Dietary Interventions." Nutrients, 2023, 15, 1728. <a href="https://doi.org/10.3390/nu15071728" target="_blank" rel="noopener noreferrer">DOI</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Teaching Experience</h2>
+      <article>
+        <h3>Teaching Assistant, Computer Networks (Prof. Dimitrios Zorbas)</h3>
+        <p class="meta">Nazarbayev University | Spring 2025</p>
+        <ul>
+          <li>Supported lectures and lab sessions on TCP/IP, routing protocols, and network security.</li>
+          <li>Graded assignments and exams with timely, actionable feedback.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python (NumPy, Pandas, Matplotlib, Seaborn), C++, Bash, SQL</li>
+        <li><strong>Technologies:</strong> scikit-learn, PyTorch, TensorFlow, OpenCV, LaTeX, Git</li>
+        <li><strong>Methods:</strong> Data mining, data wrangling/cleaning, web scraping, clustering/classification, visualization, experimental design, statistical analysis, scientific writing, literature review</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

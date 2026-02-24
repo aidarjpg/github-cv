@@ -1,0 +1,92 @@
+pages: 2
+
+--- PAGE 1 ---
+
+Aidar Amangeldi
+Astana, Kazakhstan — aidar0amangeldi@gmail.com — LinkedIn (link) — GitHub (link)
+EDUCA TION
+Nazarbayev University, Astana, Kazakhstan
+MSc in Data Science’26
+BSc in Computer Science’24
+Relevant Courses : Data Mining and Decision Support, Artificial Intelligence, Linear Algebra, Big Data Analytics, Discrete
+Mathematics, Probability and Statistics for DS, Computer Vision
+WORK AND ACADEMIC EXPERIENCE
+Research Assistant — Embedded Systems and AI (ESAI) lab (Prof. Jurn-Gyu Park) Astana, Kazakhstan
+August 2022 - Present
+My research was devoted for characterizing Vision Transformer and CNN workloads on Embedded Systems (NVIDIA Jetson
+TX2) and developing CPU-GPU integrated DVFS governor algorithms to reduce the power consumption without accuracy and
+performance loss:
+• Published two papers in IEEE journal and conference
+• Measuring and evaluateing power consumption, time performance and energy-delay-product metrics of the default and
+proposed CPU/GPU governors
+• Customizing tegrastats parser in Python for the research needs
+• Developing Dynamic Frequency Scaling algorithms to improve CPU/GPU utilization during the CNN/ViT object detection
+on mobile/embedded systems
+Data Science intern — Institute of Smart Technologies and Artificial Intelligence (ISSAI) Astana, Kazakhstan
+May 2022 – August 2022
+• Contributed to the development of the first Central Asian dishes dataset, including data collection, annotation, and quality
+control; published in MDPI.
+• Web scraped images for 10 Central Asian dishes with over 6000 items in total
+• Carried out data cleaning, iterative annotation, and multiple inspections
+• Trained dataset on YOLO/ResNet for 8 food classes with 80% accuracy and overall Precision/Recall/F-1 of 0.83/0.80/
+0.87 per each metric
+COURSE PROJECTS
+AI-Generated Text Detection with Topic-Based Generalization (Deep Learning, Prof. Siamac Fazli) (arXiv)
+• Implemented and evaluated three model families—TF–IDF Logistic Regression, BiLSTM, and DistilBERT—using consistent
+preprocessing, hyperparameter search, and validation-driven model selection.
+• Achieved 88.86% accuracy with BiLSTM and 0.96 ROC–AUC with DistilBERT, outperforming the lexical TF–IDF baseline
+(82.87%) under strict topic-shift evaluation.
+• Quantified accuracy–latency trade-offs, showing that DistilBERT provides superior detection of AI text (92% recall) but is
+∼50× slower at inference than BiLSTM, enabling informed deployment decisions.
+• Analyzed false positives and false negatives using confusion matrices and ROC curves to demonstrate how model choice
+impacts academic integrity use cases.
+CNN vs. ViT Performance comparison on Tiny ImageNet and DermaMNIST (Data Mining and Decision
+Support, Prof. Jurn-Gyu Park) (arXiv)
+• Conducted a systematic comparison of ResNet18 and Vision Transformer variants (Tiny, Small, Base, Large) for both
+medical and general-purpose image classification.
+• Developed and implemented a fine-tuning strategy with structured hyperparameter variation to optimize accuracy–efficiency
+trade-offs.
+• Achieved 3–4× faster inference and 75% parameter reduction with ViT-Small (Patch 16) while maintaining accuracy within
+3% of the best-performing model.
+Layoff Forecasting & Workforce Planning Model: A CRISP-DM Approach for Government Decision-Making
+(Data-Driven Innovation, Prof. Jose Berengueres)
+• Developed a forecasting, classification, and clustering system on WARN layoff data to enable early detection of high-risk
+states and months.
+• Combined Prophet, Logistic Regression, and K-Means models with lag-based features to capture non-linear economic shock
+patterns.
+• Estimated $44M fiscal savings and $144M GDP preservation through proactive reskilling interventions.
+Congenital Heart Disease Recognition using Deep Learning/Transformer Models (Computer Vision, Prof. Khalil
+Khan) (arXiv)
+• Conducted a study employing deep learning models on combined audio (ZCHSound) and image (DICOM Chest X-ray)
+datasets for CHD diagnosis.
+• Applied advanced preprocessing (contrast enhancement, histogram equalization, Gaussian blur) and augmentation to im-
+prove generalization on small, imbalanced medical datasets.
+
+--- PAGE 2 ---
+
+• Implemented late-fusion strategies (accuracy-weighted, class-weighted, meta-ensemble logistic regression) achieving 73.9%
+accuracy on ZCHSound audio and 80.72% on pediatric CXR classification.
+Removal of Text in Images (Image Processing, Prof. Zhanat a Kappassov) (GitHub)
+• Designed and implemented an image-processing pipeline for automated text detection and removal while preserving back-
+ground integrity.
+• Applied median filtering, histogram equalization, and Google Cloud Vision API for OCR-based text localization.
+• Developed inpainting and smoothing algorithms to reconstruct background, achieving visually consistent results on varied
+scenes.
+Publications and Acknowledgments
+J.-G. Park, A. Amangeldi, N. Fakhrutdinov, M. Karzhaubayeva, and D. Zorbas, ”Patch and Model Size Characterization for
+On-Device Efficient-ViTs on Small Datasets Using 12 Quantitative Metrics,” IEEE Access, 2025, link.
+M. Karzhaubayeva, A. Amangeldi and J. -G. Park, ”CNN Workloads Characterization and Integrated CPU-GPU DVFS
+Governors on Embedded Systems,” in IEEE Embedded Systems Letters, link.
+Acknowledgments in : Karabay, A.; Bolatov, A.; Varol, H.A.; Chan, M.-Y. ”A Central Asian Food Dataset for Personalized
+Dietary Interventions.” Nutrients 2023, 15, 1728. link
+TEACHING EXPERIENCE
+Teaching Assistant – Computer Networks (Prof. Dimitrios Zorbas) Nazarbayev University, Spring 2025
+• Assisted in delivering lectures and facilitating lab sessions for undergraduate students on core networking concepts, including
+TCP/IP, routing protocols, and network security.
+• Graded assignments, midterm, and final exams, ensuring timely and constructive feedback.
+SKILLS
+• Languages: Python (NumPy, Pandas, matplotlib, Seaborn), C++, Bash, SQL
+• Technologies: scikit-learn, PyTorch/TensorFlow, OpenCV,LATEX, Git
+• Relevant skills: Data mining, wrangling, cleaning and modeling with further analysis and visualization, Web scraping,
+Clustering and classification, Data visualization, Experimental design, Statistical analysis, Scientific writing, Literature
+review
